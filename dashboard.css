@@ -1,0 +1,48 @@
+body{
+    margin-top: 10px;
+}
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: left; 
+}
+.nav ul {
+    margin: 12 auto;
+    height: 10vh;
+    display: flex;
+    padding: 10px;
+    border: 10px solid white;
+}
+.nav li {
+    display: inline-block;
+    margin-right: 200px;
+}
+.nav a {
+    color: #232121;
+    text-decoration: black;
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.widget {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(5, 5, 5, 5.1);
+    width: calc(33.33% - 1px);
+}
+.widget h2 {
+    margin-top: 1;
+}
+
